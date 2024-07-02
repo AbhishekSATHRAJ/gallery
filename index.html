@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <style>
+      div.Gallery {
+        float: left;
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        margin: 50px;
+        position: relative;
+        left: 50px;
+        top: 20px;
+        padding: 2px;
+      }
+      div.img {
+        height: auto;
+        width: 100%;
+        position: absolute;
+      }
+      div.desc {
+        text-align: center;
+        color: rgb(33, 108, 214);
+        font-size: large;
+      }
+      body{
+        margin: 200px;
+        height: 600px;
+        width: 900px;
+        position: absolute;
+        padding: 50px;
+        border: 1px solid black;
+      }
+      h1 img {
+        position: absolute;
+        height: 600px;
+        width: 900px;
+        opacity: 0.5;
+      }
+      
+    </style>
+  </head>
+  <body>
+      <h1><img src="./assets/BCCI-Logo.jpg" /></h1>
+      <div class="Gallery">
+        <a target="_parent" href="./assets/virat_kohli.jpg"
+          ><img src="./assets/virat_kohli.jpg" width="180" height="150"
+        /></a>
+        <div class="desc">virat_kohli</div>
+      </div>
+      <div class="Gallery">
+        <a target="_parent" href="./assets/rohit sharma.avif"
+          ><img src="./assets/rohit sharma.avif" width="180" height="150"
+        /></a>
+        <div class="desc">Rohit_sharma</div>
+      </div>
+      <div class="Gallery">
+        <a target="_parent" href="./assets/yuraj.jpg"
+          ><img src="./assets/yuraj.jpg" width="180" height="150"
+        /></a>
+        <div class="desc">Yuraj</div>
+      </div>
+      <div class="Gallery">
+        <a target="_parent" href="./assets/jadeja.webp"
+          ><img src="./assets/jadeja.webp" width="180" height="150"
+        /></a>
+        <div class="desc">Jadeja</div>
+      </div>
+      <div class="Gallery">
+        <a target="_parent" href="./assets/gautam.avif"
+          ><img src="./assets/gautam.avif" width="180" height="150"
+        /></a>
+        <div class="desc">Gautam</div>
+      </div>
+      <div class="Gallery">
+        <a target="_parent" href="./assets/bumrah.jpg"
+          ><img src="./assets/bumrah.jpg" width="180" height="150"
+        /></a>
+        <div class="desc">Bumrah</div><br><a href="./video.html" target="_blank">clickme</a>
+      </div>
+     
+  </body>
+</html>
